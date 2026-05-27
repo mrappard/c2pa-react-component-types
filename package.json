@@ -1,6 +1,6 @@
 {
   "name": "c2pa-react-component-types",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shared TypeScript types for C2PA React components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
   "files": [
     "dist"
   ],
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "test": "tsc --noEmit",
