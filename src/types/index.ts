@@ -113,6 +113,7 @@ export interface C2paBaseProps {
 
 export interface C2paManifestProps extends C2paBaseProps {
   plugin?: PluginC2PA[]
+  resolveUri?: (uri: string, format?: string) => ReactNode
 }
 
 export interface C2paProvenanceGraphProps {
